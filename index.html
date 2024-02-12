@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEONFILMS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Cabecera del sitio -->
+    <header>
+        <nav>
+            <a href="#" id="logo"><img src="img/logo.png" alt="Logo"></a>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#planes">Peliculas</a></li>
+                <li><a href="#destinos">Series</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div id="hero">
+            <img src="img/leon.png" alt="leon">
+            <h2>LEONFILMS</h2>
+            <h1>good  films make your life better</h1>
+        </div>
+    </header>    
+    <!-- Secciones principales del sobre -->
+    <main>
+        <section id="sobre">
+            <h2>QUE ES LEONFILMS</h2>
+            <p><strong>LEONFILMS </strong> es un sitio web que te <br>
+            permitira ver las mejores reseñas de series y peliculas desde cualquier dispositivo
+            </p>
+            <img src="img/leon4.png" alt="leon">
+        </section>
+        <section id="estrenos">
+            <div class="Carousel">
+                <h2>Estrenos  de Series 2024 </h2>
+                <div class="slick-list" id="slick-list">
+                    <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev" onclick="app.processingButton(event)">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+                    </button>
+                    <div class="slick-track" id="track">
+                        <div class="slick">
+                            <div>
+                                <a href="abbot.html">
+                                    <picture>
+                                        <img src="img/series/abbott.jpeg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="amos.html">
+                                    <picture>
+                                        <img src="img/series/amos.jpeg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="avatar.html">
+                                    <picture>
+                                        <img src="img/series/avatar.jpeg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="griselda.html">
+                                    <picture>
+                                        <img src="img/series/griselda.jpeg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="halo.html">
+                                    <picture>
+                                        <img src="img/series/halo.jpeg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="sr.html">
+                                    <picture>
+                                        <img src="img/series/sr.jpeg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="true.html">
+                                    <picture>
+                                        <img src="img/series/True.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="prom.html">
+                                    <picture>
+                                        <img src="img/series/prom.jpeg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slick-arrow slick-next" id="button-next" data-button="button-next" onclick="app.processingButton(event)">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="estrenS">
+            <div class="Carousel">
+                <h2>Estrenos de peliculas 2024</h2>
+                <div class="slick-list" id="slick-list">
+                    <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev" onclick="app.processingButton(event)">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+                    </button>
+                    <div class="slick-track" id="track">
+                        <div class="slick">
+                            <div>
+                                <a href="piscina.html">
+                                    <picture>
+                                        <img src="img/piscina.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="old.html">
+                                    <picture>
+                                        <img src="img/oldboy.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="imaginary.html">
+                                    <picture>
+                                        <img src="img/imaginary.png" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="garra.html">
+                                    <picture>
+                                        <img src="img/garra.png" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="ferrari.html">
+                                    <picture>
+                                        <img src="img/ferrari.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="duna.html">
+                                    <picture>
+                                        <img src="img/DUNA.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/cigueña.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="baghead.html">
+                                    <picture>
+                                        <img src="img/baghead.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slick-arrow slick-next" id="button-next" data-button="button-next" onclick="app.processingButton(event)">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+        <section id="estre">
+            <div class="Carousel">
+                <h2>PELICULAS TENDENCIA</h2>
+                <div class="slick-list" id="slick-list">
+                    <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev" onclick="app.processingButton(event)">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+                    </button>
+                    <div class="slick-track" id="track">
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/peliculas/aquaman.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/peliculas/barbie.jpeg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/peliculas/calber.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/peliculas/juegos.jpeg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/peliculas/marvels.jpeg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/peliculas/offworld.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/peliculas/patos.jpeg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/peliculas/wonka.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slick-arrow slick-next" id="button-next" data-button="button-next" onclick="app.processingButton(event)">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+        <section id="serie2">
+            <div class="Carousel">
+                <h2>SERIES TENDENCIA</h2>
+                <div class="slick-list" id="slick-list">
+                    <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev" onclick="app.processingButton(event)">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+                    </button>
+                    <div class="slick-track" id="track">
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/series1/breaking.jpeg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/series1/lucifer.jpeg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/series1/demon.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/series1/merlina.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/series1/robo.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/series1/the.jpeg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/series1/troya.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/series1/wolking.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slick-arrow slick-next" id="button-next" data-button="button-next" onclick="app.processingButton(event)">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+        <section id="serie2">
+            <div class="Carousel">
+                <h2>SERIES y PELICULAS TENDENCIA EN COLOMBIA </h2>
+                <div class="slick-list" id="slick-list">
+                    <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev" onclick="app.processingButton(event)">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+                    </button>
+                    <div class="slick-track" id="track">
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/col/berlin.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/col/casa.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/col/paradoja.jpeg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/col/primea.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/col/rigo.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/col/vil1.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/col/vil2.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <a href="/">
+                                    <picture>
+                                        <img src="img/col/vill.jpeg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slick-arrow slick-next" id="button-next" data-button="button-next" onclick="app.processingButton(event)">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+        <section id="contacto">
+            <h2>CONTACTO</h2>
+            <p>Comparte con nosotros las mejores peliculas de este 2024
+            </p>
+            <form action="#">
+                <div class="fila">
+                    <input type="text" placeholder="Nombres: ">
+                    <input type="email" placeholder="Email: ">
+                </div>
+                <div class="fila">
+                    <input type="pelicula" placeholder="Pelicula: ">
+                    <input type="text" placeholder="Comentario: ">
+                </div>
+                <button>ENVIAR</button>
+            </form>
+        </section>
+
+    </main>
+    <!-- Pie de pagina del sitio -->
+    <footer>
+        <p>© Todos los derechos reservados</p>
+        <p>andresleonardo0928@gmail.com</p>
+        <p>+57 3043219433</p>
+        <p>CR 90 #93 -20</p>
+        <p>Andres Ortiz</p>
+    </footer>
+
+   <script src="js/script.js"></script>
+</body>
+</html>
